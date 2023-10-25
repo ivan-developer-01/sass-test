@@ -7,7 +7,8 @@ body {
   .container .grid-boxes {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 30px 60px; }
+    gap: 30px 60px;
+    padding: 40px 0; }
     .container .grid-boxes .box {
       background-image: linear-gradient(to bottom right, #a2a2a2, lightgray);
       padding: 20px;
