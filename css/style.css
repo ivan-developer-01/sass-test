@@ -1,16 +1,23 @@
+body {
+  background: gray; }
+
 .container {
   max-width: 1263px;
   margin: 0 auto; }
   .container .grid-boxes {
     display: grid;
-    grid-template-columns: 1fr 1fr; }
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px 60px; }
     .container .grid-boxes .box {
+      background-image: linear-gradient(to bottom right, #a2a2a2, lightgray);
       padding: 20px;
       border: 1px solid black;
       border-radius: 10px;
       box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
       text-align: center;
       font-style: italic;
-      text-shadow: 0 0 5px rgba(0, 0, 0, 0.2); }
+      text-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+      font-size: 24px;
+      font-family: "Comic Neue", Arial, Helvetica, sans-serif; }
 
 /*# sourceMappingURL=style.css.map */
